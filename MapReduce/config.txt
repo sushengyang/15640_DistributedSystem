@@ -1,0 +1,26 @@
+MasterPort = 10000
+SlavePort = 10001
+MasterHost = 128.2.13.144
+SlaveHosts = 128.2.13.161, 128.2.13.145, \
+			128.2.13.161, 128.2.13.145	
+SlaveRootDir = /afs/andrew.cmu.edu/usr23/yangpan/Documents/mrfiles/s1/, \
+			/afs/andrew.cmu.edu/usr23/yangpan/Documents/mrfiles/s2/, \
+			/afs/andrew.cmu.edu/usr23/yangpan/Documents/mrfiles/s3/, \
+			/afs/andrew.cmu.edu/usr23/yangpan/Documents/mrfiles/s4/
+SlaveCapacity = 5, 5, 5, 5
+
+FileChunkSizeB = 1000000
+NumberOfReducer= 5
+
+MasterRootDir = /afs/andrew.cmu.edu/usr23/yangpan/Documents/mrfiles/master/
+
+IntermediateDirName = IntermediateFiles
+ChunkDirName = ChunkInputFiles
+ResultDirName = ResultFiles
+UserDirName = UserFiles
+
+DataMasterHost = 128.2.13.144
+DataMasterPort = 6789
+DataSlavePort = 7890
+
+
